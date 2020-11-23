@@ -1,5 +1,5 @@
 # Camas Management on the North American Columbia Plateau
-This repository contains all data and code for the forthcoming paper "Harvesting strategies as evidence for 4,000 years of camas (Camassia quamash) management in the North American Columbia Plateau." 
+This repository contains all data and code for the forthcoming paper "Harvesting strategies as evidence for 4,000 years of camas (*Camassia quamash*) management in the North American Columbia Plateau." 
 
 Files included:
 
@@ -7,7 +7,7 @@ Files included:
 
 -Dataset S2. Master spreadsheet with archaeological bulb data and provenience.
 
--Dataset S3. Modern, comparative Camassia quamash data 3.
+-Dataset S3. Modern, comparative *Camassia quamash* data 3.
 
 -Dataset S4. δ18O data from Cleland lake, British Columbia, used in Figure 4 (Steinman et al. 2016).
 
