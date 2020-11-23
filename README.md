@@ -13,7 +13,7 @@ Files included:
 
 -Dataset S5. Northeastern Pacific sea surface temperature (°C) reconstruction used in Figure 4 (Kienast and McKay 2001).
 
-###References
+### References
 
 Carney, M. et al. Harvesting strategies as evidence for 4,000 years of camas (Camassia quamash) management in the North American Columbia Plateau. *SocArXiv* November 23. doi:10.31235/osf.io/c752m (2020).
 
