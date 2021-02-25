@@ -84,15 +84,6 @@ boxplot(NumLeaves ~ DateRange, data = boxplotdf,
         ylab = "Number of Leaves", xlab = "",)
        
 #Figure 4 Climate and bulb data graph
-#Prep bulb data for graph
-archbulbs.analysis %>%
-        group_by(DateRange) %>%
-        summarize(median_ratio = median(Ratio, na.rm = TRUE))
-
-Med.DateRange <-  c(250, 750, 1250, 1750, 2250, 2750, 3250, 3750)
-median.ratio <- c(0.6627, 0.6091, 0.5010, 0.5585, 0.6726, 0.7459, 0.6910, 0.6546)
-median.NumLeaves <- c(3.5, 4.0, 3.0, 3.0, 3.0, 4.0, 3.0, 3.0)
-bulbsizes <- data.frame(Med.DateRange, median.ratio, median.NumLeaves)
 
 #Plot Figure 4 graph
 dev.off()
