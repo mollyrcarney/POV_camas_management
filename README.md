@@ -33,8 +33,8 @@ library(rcompanion)
 
 ### Load data
 ```r
-archbulbs.analysis <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI1_cvap_master
-control.camas <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI2_control_camas
+archbulbs.analysis <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI2_cvap_master
+control.camas <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI3_control_camas
 cleland <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI4_cleland_lake_d18o
 sst <- read.csv(file.choose(), fileEncoding="UTF-8-BOM") #SI5_sea_surface_temp
 ```
