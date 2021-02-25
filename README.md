@@ -90,19 +90,19 @@ dev.off()
 par(mar = c(4, 4, 1, 1))
 par(mfrow=c(4,1))
 plot(cleland$age_calBP, cleland$d18OcarbVPDB, 
-     type= "l", col= "blue", pch=20,cex=0.5, lwd = 1.5,
+     type= "l", col= "#0072b2", pch=19, lwd = 1.5,
      xlim=c(0,4500), ylim=c(-1, -16),
-     xlab = "", ylab="D18O")
+     xlab = "", ylab="??18O")
 ticks = c(500, 1000, 1500, 2500, 3000, 3500)
 plot(sst$calyrBP, sst$sst.uk37, 
-     type= "l", col= "red", pch=20,cex=0.5, lwd = 2,
-     ylab="Sea Surface Temp", 
+     type= "l", col= "#71C4EA", pch=19, lwd = 2,
+     ylab="SST (°C)", 
      xlab = "", xlim=c(0, 4500), ylim= c(8, 11))
-plot(bulbsizes$Med.DateRange, bulbsizes$median.ratio, 
-     type= "l", col="purple", pch=20, cex=0.5, lwd = 2,  xlim=c(0,4500),
-     xlab="", ylab = "Median Size Ratio")
-plot(bulbsizes$Med.DateRange, bulbsizes$median.NumLeaves, 
-     type = "l", col="orange", xlab="Age BP", 
-     ylab= "Median # Leaves", pch=20, cex=0.5, lwd = 2,
+plot(archbulbs.analysis$MedianDate, archbulbs.analysis$Ratio, 
+     type= "p", col="#7187EA", pch=19,   xlim=c(0,4500),
+     xlab="", ylab = "Size Ratio")
+plot(archbulbs.analysis$MedianDate, archbulbs.analysis$NumLeaves, 
+     type = "p", col="#EA7187", xlab="Age BP", 
+     ylab= "Num Leaves (n)", pch=19, 
      ylim = c(2.8, 4.2), xlim=c(0,4500))
 ```
